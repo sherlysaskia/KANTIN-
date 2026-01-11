@@ -206,7 +206,7 @@
 </section>
 
 <footer>
-    &copy; <?= date('Y'); ?> Kantin Cerdas | Dibuat oleh Kelompok 3
+    &copy; <?= date('Y'); ?> Kantin Freshsweety | Dibuat oleh Kelompok 3
 </footer>
 
 </body>
