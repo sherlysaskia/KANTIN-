@@ -40,27 +40,27 @@ CREATE TABLE `menu` (
 --
 
 INSERT INTO `menu` (`id`, `nama`, `harga`, `gambar`, `status`) VALUES
-(1, 'Bakso kecil (bakso kecil 8)', 13000, 'menu_1767844762_Donna Jos Sia.jpg', 'tersedia'),
-(2, 'Indomie Bakso (Bakso besar 1, kecil 4)', 18000, 'menu_1767844693_Mie Bakso🍜.jpg', 'tersedia'),
-(3, 'indomie (rebus/goreng)', 6000, 'menu_1767844633_Some packs Indomie🇮🇩.jpg', 'tersedia'),
-(4, 'Bakso Urat (bakso besar 1, kecil 4)', 13000, 'menu_1765465019_baso.jpeg', 'tersedia'),
-(5, 'Mie Yamin', 11000, 'menu_1765465007_yamin.jpeg', 'tersedia'),
-(6, 'Mie Ayam', 11000, 'menu_1765464986_miayam.jpeg', 'tersedia'),
-(7, 'Mie Tek-Tek', 13000, 'menu_1765464967_tektek.jpeg', 'tersedia'),
-(8, 'Air Mineral', 5000, 'menu_1765464950_air.jpeg', 'tersedia'),
-(9, 'Jus Alpukat', 10000, 'menu_1765464939_alpukat.jpeg', 'tersedia'),
-(10, 'Jus Mangga', 8000, 'menu_1765464928_mangga.jpeg', 'tersedia'),
-(11, 'Jeruk Peras', 5000, 'menu_1765464913_jeruk.jpeg', 'tersedia'),
-(17, 'Mie ayam Bakso urat (bakso besar 1)', 17000, 'menu_1767845078_Mie Ayam Bakso Super.jpg', 'tersedia'),
-(18, 'Mie ayam Bakso (bakso kecil 2)', 14000, 'menu_1767845113_Mie Ayam+Bakso😍.jpg', 'tersedia'),
-(19, 'Bakso besar (bakso besar 2)', 13000, 'menu_1767845362_Bakso Urat mas mono.jpg', 'tersedia'),
-(20, 'Bakso keju (bakso keju 2, kecil 3)', 15000, 'menu_1767845432_Bakso Keju Isi Lezat Mudah Praktis - Resep _ ResepKoki.jpg', 'tersedia'),
-(21, 'Jus Strawberry', 7000, 'menu_1767845730_Jus Strawberry.jpg', 'tersedia'),
-(22, 'Jus Sirsak', 7000, 'menu_1767845750_JUS SIRSAK LITERAN 13000 KHUSUS INSTAN BANDUNG.jpg', 'tersedia'),
-(23, 'Jus Buah Naga', 7000, 'menu_1767845772_Jus Naga.jpg', 'tersedia'),
-(24, 'Jus Tomat', 7000, 'menu_1767845795_Tomato Juice ,33_8 fl oz.jpg', 'tersedia'),
-(25, 'Jus Jambu', 7000, 'menu_1767845812_Jamaican Style Guava Juice_ Nutritious And Delicious.jpg', 'tersedia');
-
+INSERT INTO menu (id, nama, harga, gambar, status) VALUES
+(1, 'Bakso kecil (bakso kecil 8)', 13000, 'menu_1767844762_donna_jos_sia.jpg', 'tersedia'),
+(2, 'Indomie Bakso (Bakso besar 1, kecil 4)', 18000, 'menu_1767844693_mie_bakso.jpg', 'tersedia'),
+(3, 'Indomie (rebus/goreng)', 6000, 'menu_1767844633_indomie.jpg', 'tersedia'),
+(4, 'Bakso Urat (bakso besar 1, kecil 4)', 13000, 'menu_1765465019_bakso_urat.jpg', 'tersedia'),
+(5, 'Mie Yamin', 11000, 'menu_1765465007_mie_yamin.jpg', 'tersedia'),
+(6, 'Mie Ayam', 11000, 'menu_1765464986_mie_ayam.jpg', 'tersedia'),
+(7, 'Mie Tek-Tek', 13000, 'menu_1765464967_mie_tektek.jpg', 'tersedia'),
+(8, 'Air Mineral', 5000, 'menu_1765464950_air_mineral.jpg', 'tersedia'),
+(9, 'Jus Alpukat', 10000, 'menu_1765464939_jus_alpukat.jpg', 'tersedia'),
+(10, 'Jus Mangga', 8000, 'menu_1765464928_jus_mangga.jpg', 'tersedia'),
+(11, 'Jeruk Peras', 5000, 'menu_1765464913_jeruk_peras.jpg', 'tersedia'),
+(17, 'Mie Ayam Bakso Urat (bakso besar 1)', 17000, 'menu_1767845078_mie_ayam_bakso_super.jpg', 'tersedia'),
+(18, 'Mie Ayam Bakso (bakso kecil 2)', 14000, 'menu_1767845113_mie_ayam_bakso.jpg', 'tersedia'),
+(19, 'Bakso Besar (bakso besar 2)', 13000, 'menu_1767845362_bakso_urat_mas_mono.jpg', 'tersedia'),
+(20, 'Bakso Keju (bakso keju 2, kecil 3)', 15000, 'menu_1767845432_bakso_keju.jpg', 'tersedia'),
+(21, 'Jus Strawberry', 7000, 'menu_1767845730_jus_strawberry.jpg', 'tersedia'),
+(22, 'Jus Sirsak', 7000, 'menu_1767845750_jus_sirsak.jpg', 'tersedia'),
+(23, 'Jus Buah Naga', 7000, 'menu_1767845772_jus_buah_naga.jpg', 'tersedia'),
+(24, 'Jus Tomat', 7000, 'menu_1767845795_jus_tomat.jpg', 'tersedia'),
+(25, 'Jus Jambu', 7000, 'menu_1767845812_jus_jambu.jpg', 'tersedia');
 -- --------------------------------------------------------
 
 --
